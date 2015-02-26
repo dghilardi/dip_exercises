@@ -107,11 +107,7 @@ void imageSubtraction(Mat *minuend, Mat *subtrahend, Mat *difference){
 int main(int argc, char *argv[]){
 
     int selection;
-    cout << "Image to load:
-" << "1. No noise 
-2. Salt and Pepper noise 
-3. Gaussian noise
--> ";
+    cout << "Image to load:\n" << "1. No noise \n2. Salt and Pepper noise \n3. Gaussian noise\n-> ";
     cin >> selection;
     string imageName;
     switch (selection){
@@ -137,10 +133,7 @@ int main(int argc, char *argv[]){
         return -1;
     }
 
-    cout << "Insert:" << endl << "1. Highpass filter 
-2. Lowpass filter 
-3. Median filter
-"<<"-> ";
+    cout << "Insert:" << endl << "1. Highpass filter \n2. Lowpass filter \n3. Median filter\n"<<"-> ";
     cin >> selection;
 
     Mat filter(FILTERROWS, FILTERCOLS, CV_32FC1, Scalar(0));
@@ -176,3 +169,5 @@ int main(int argc, char *argv[]){
     waitKey();
     return 0;
 }
+
+
