@@ -13,9 +13,9 @@ See the file LICENSE for copying permission.
 #include <math.h>
 #include <cmath>
 
-#define GAUSS_IMAGENAME "./lenaGaussian.bmp"
-#define SALT_PEPPER_IMAGE "./SaltAndPepperNoise.jpg"
-#define NO_NOISE_IMAGE "./ippi.jpg"
+#define GAUSS_IMAGENAME "../img/lenaGaussian.jpg"
+#define SALT_PEPPER_IMAGE "../img/SaltAndPepperNoise.jpg"
+#define NO_NOISE_IMAGE "../img/ippi.jpg"
 #define FILTERROWS 10
 #define FILTERCOLS 10
 

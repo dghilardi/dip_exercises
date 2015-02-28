@@ -9,3 +9,8 @@ before_install:
   - sudo apt-get install libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
 script:
   - (mkdir -p build/06 && cd build/06 && qmake ../../Assignment06Filtering && make)
+  - (mkdir -p build/07 && cd build/07 && qmake ../../Assignment07FreqFiltering && make)
+  - (mkdir -p build/08 && cd build/08 && qmake ../../Assignment08CannyEdgeDet && make)
+  - (mkdir -p build/10 && cd build/10 && qmake ../../Assignment10HoughSpace && make)
+  - (mkdir -p build/11 && cd build/11 && qmake ../../Assignment11Segmentation && make)
+  - (mkdir -p build/12 && cd build/12 && qmake ../../Assignment12MorphologicalOperators && make)
